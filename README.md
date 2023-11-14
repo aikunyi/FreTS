@@ -1,4 +1,4 @@
-#Frequency-domain MLPs are More Effective Learners in Time Series Forecasting
+# Frequency-domain MLPs are More Effective Learners in Time Series Forecasting
 
 This repo is the official Pytorch implementation of ["Frequency-domain MLPs are More Effective Learners in Time Series Forecasting"](https://arxiv.org/pdf/2311.06184.pdf).
 
