@@ -11,8 +11,6 @@ This repo is the official Pytorch implementation of ["Frequency-domain MLPs are 
 
 `python weight_plot.py`
 
-put the corresponding checkpoint file into the test directory, and select the corresponding weights (e.g., w) to visualize
-
 
 ## Citation
 
