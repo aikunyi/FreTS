@@ -58,8 +58,8 @@ class Dataset_ETT_hour(Dataset):
         mms = MinMaxScaler(feature_range=(0, 1))
         if self.scale:
             train_data = df_data[border1s[0]:border2s[0]]
-            mms.fit_transform(train_data.values)
-            data = mms.fit_transform(df_data.values)
+            mms.fit(train_data.values)
+            data = mms.transform(df_data.values)
         else:
             data = df_data.values
 
@@ -250,8 +250,8 @@ class Dataset_Covid(Dataset):
         mms = MinMaxScaler(feature_range=(0, 1))
         if self.scale:
             train_data = df_data[border1s[0]:border2s[0]]
-            mms.fit_transform(train_data.values)
-            data = mms.fit_transform(df_data.values)
+            mms.fit(train_data.values)
+            data = mms.transform(df_data.values)
         else:
             data = df_data.values
 
@@ -353,8 +353,8 @@ class Dataset_Custom_(Dataset):
         mms = MinMaxScaler(feature_range=(0, 1))
         if self.scale:
             train_data = df_data[border1s[0]:border2s[0]]
-            mms.fit_transform(train_data.values)
-            data = mms.fit_transform(df_data.values)
+            mms.fit(train_data.values)
+            data = mms.transform(df_data.values)
         else:
             data = df_data.values
 
